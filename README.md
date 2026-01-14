@@ -42,7 +42,7 @@ Antes de começar, certifique-se de ter instalado:
 
 ### 1. Clone o repositório
 ```bash
-git clone [URL_DO_SEU_REPOSITORIO]
+git clone [https://github.com/JhonatanMJesus/ConversorMoedasMobile.git]
 cd ConversorMoedasApp
 ```
 
@@ -119,30 +119,10 @@ O APK será gerado em: `app/build/outputs/apk/release/`
 ./gradlew connectedAndroidTest
 ```
 
-## 📝 Licença
-
-Este projeto está sob a licença [especifique sua licença]. Veja o arquivo `LICENSE` para mais detalhes.
-
-## 👨‍💻 Autor
-
-**[Seu Nome]**
-
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [Seu Perfil](https://linkedin.com/in/seu-perfil)
-
-## 🤝 Contribuindo
-
-Contribuições são sempre bem-vindas! Para contribuir:
-
-1. Faça um Fork do projeto
-2. Crie uma Branch para sua feature (`git checkout -b feature/MinhaFeature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
-4. Push para a Branch (`git push origin feature/MinhaFeature`)
-5. Abra um Pull Request
 
 ## 📧 Contato
 
-Para dúvidas ou sugestões, entre em contato através de [seu-email@exemplo.com]
+Para dúvidas ou sugestões, entre em contato através de [jhonatanjau98@gmail.com]
 
 ---
 
