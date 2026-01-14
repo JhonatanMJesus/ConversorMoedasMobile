@@ -1,0 +1,57 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'br.edu.fatecjahu.conversormoedasapp'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "br.edu.fatecjahu.conversormoedasapp"
+        minSdk 24
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+
+//    implementation libs.appcompat
+//    implementation libs.material
+//    implementation libs.activity
+//    implementation libs.constraintlayout
+
+    implementation libs.appcompat.v161
+    implementation libs.material.v1110
+    implementation libs.constraintlayout.v214
+    implementation libs.okhttp
+    implementation libs.json
+
+    // As bibliotecas acima das linhas 38 a 42 são equivalentes as bibliotecas antigas abaixo,
+    // das linhas 47 a 51.
+    /*
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'org.json:json:20231013'
+    */
+
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+}
