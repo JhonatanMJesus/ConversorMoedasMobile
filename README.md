@@ -42,7 +42,7 @@ Antes de começar, certifique-se de ter instalado:
 
 ### 1. Clone o repositório
 ```bash
-git clone [https://github.com/JhonatanMJesus/ConversorMoedasMobile.git]
+git clone https://github.com/JhonatanMJesus/ConversorMoedasMobile.git
 cd ConversorMoedasApp
 ```
 
@@ -122,7 +122,7 @@ O APK será gerado em: `app/build/outputs/apk/release/`
 
 ## 📧 Contato
 
-Para dúvidas ou sugestões, entre em contato através de [jhonatanjau98@gmail.com]
+Para dúvidas ou sugestões, entre em contato através de jhonatanjau98@gmail.com
 
 ---
 
